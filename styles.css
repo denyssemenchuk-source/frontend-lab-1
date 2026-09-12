@@ -37,3 +37,24 @@ header {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+
+.site-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--button-bg);
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .site-footer {
+    font-size: 0.8rem;
+  }
+}
